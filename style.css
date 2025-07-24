@@ -4,7 +4,10 @@ html, body {
 }
 
 body{
-  background: gold;
+  background-image: url(img/LogoRica.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
 }
 
 h1{
@@ -18,6 +21,7 @@ img{
 }
 
 .contenedor-logo {
+  border-top: 100px solid transparent;
   width: 80%;
   max-width: 300px;
 }
@@ -35,3 +39,4 @@ img{
   85%  { transform: translateY(-10px); }
   100% { transform: translateY(0); }
 }
+
