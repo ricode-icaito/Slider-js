@@ -176,6 +176,11 @@ window.addEventListener('load', function () {
   imagenes[170] = 'img/imagen-171.jpg';
   imagenes[171] = 'img/imagen-172.jpg';
   imagenes[172] = 'img/imagen-173.jpg';
+  imagenes[173] = 'img/imagen-174.jpg';
+  imagenes[174] = 'img/imagen-175.jpg';
+  imagenes[175] = 'img/imagen-176.jpg';
+  imagenes[176] = 'img/imagen-177.jpg';
+  imagenes[177] = 'img/imagen-178.jpg';
 
   var indiceImagenes = 0;
 
@@ -185,7 +190,7 @@ window.addEventListener('load', function () {
     
     document.slider.src = imagenes[indiceImagenes];
 
-    if (indiceImagenes < 172) {
+    if (indiceImagenes < 177) {
       indiceImagenes++;
     }else {
       indiceImagenes = 0
