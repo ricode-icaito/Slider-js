@@ -181,6 +181,22 @@ window.addEventListener('load', function () {
   imagenes[175] = 'img/imagen-176.jpg';
   imagenes[176] = 'img/imagen-177.jpg';
   imagenes[177] = 'img/imagen-178.jpg';
+  imagenes[178] = 'img/imagen-179.jpg';
+  imagenes[179] = 'img/imagen-180.jpg';
+  imagenes[180] = 'img/imagen-181.jpg';
+  imagenes[181] = 'img/imagen-182.jpg';
+  imagenes[182] = 'img/imagen-183.jpg';
+  imagenes[183] = 'img/imagen-184.jpg';
+  imagenes[184] = 'img/imagen-185.jpg';
+  imagenes[185] = 'img/imagen-186.jpg';
+  imagenes[186] = 'img/imagen-187.jpg';
+  imagenes[187] = 'img/imagen-188.jpg';
+  imagenes[188] = 'img/imagen-189.jpg';
+  imagenes[189] = 'img/imagen-190.jpg';
+  imagenes[190] = 'img/imagen-191.jpg';
+  imagenes[191] = 'img/imagen-192.jpg';
+  imagenes[192] = 'img/imagen-193.jpg';
+  imagenes[193] = 'img/imagen-194.jpg';
 
   var indiceImagenes = 0;
 
@@ -190,7 +206,7 @@ window.addEventListener('load', function () {
     
     document.slider.src = imagenes[indiceImagenes];
 
-    if (indiceImagenes < 177) {
+    if (indiceImagenes < 193) {
       indiceImagenes++;
     }else {
       indiceImagenes = 0
